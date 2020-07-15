@@ -25,8 +25,14 @@ class Conta:
 
     def getSaldo(self):#criando gets e sets lembrando que só cria esses métodos quando realmente necessários
         return self.__saldo
+    @property
+    def saldo(self):#um get mais bonito
+        return self.__saldo
     def setSaldo(self,valor):
         self.__saldo = valor
+    @saldo.setter#set diferenciado
+    def saldo(self,saldo):
+        self.__saldo = saldo
 #para zerar o objeto utilizar o None que é equivalente ao null em Java
 conta = Conta(123, "joao", 50, 500)
 conta2 = Conta(321, "Ingrid", 100, 500)
