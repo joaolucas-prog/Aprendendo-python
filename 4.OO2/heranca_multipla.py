@@ -22,7 +22,7 @@ class Alura(Funcionario):
     def busca_perguntas_sem_resposta(self):
         print('Mostrando perguntas não respondidas do fórum')
 
-class Hipster:
+class Hipster:#mixin
     def __str__(self):
         return f'Hipster,  {self.nome}'
 
