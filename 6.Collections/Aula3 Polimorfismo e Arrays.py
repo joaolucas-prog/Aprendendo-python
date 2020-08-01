@@ -56,3 +56,13 @@ class Conta2(metaclass=ABCMeta):
         pass
     def __str__(self):
         return f"[>>Código {self._codigo} Saldo {self._saldo}<<]"
+
+"""
+IGUALDADE EM UMA CLASSE
+
+para defenir uma igualdade de uma classe criada eu devo ter um metodo especial __eq__(self,outro):
+e definir quais condições fazem com que elas sejam iguais
+
+posso dizer que um atributo igual a outra torna as 2 variaveis iguais, ou o tipo de classe são iguais
+ou isinstance da classe ou seja se é a propria classe ou classe filha
+"""
