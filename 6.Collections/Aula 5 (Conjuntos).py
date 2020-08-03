@@ -26,3 +26,13 @@ print(usuarios_data_science - usuarios_machine_learning)
 print(usuarios_data_science ^usuarios_machine_learning)
 
 #como os conjuntos são interaveis você consegue utilizar os metodos dos interaveis como in for ...
+
+#Os conjuntos são mutaveis então eu posso adicionar e remover valores nele
+# o Comando de adicionar algum valor no conjunto é o add
+
+conjuntoA = {1,12,3,41,25,76,5,23,46}
+print(conjuntoA)
+conjuntoA.add(5)
+print(conjuntoA)
+#Podemos trabalhar com conjuntos imutavei para isso chamamos o frozenset
+conjuntoB = frozenset(1,2,3,4,5)
