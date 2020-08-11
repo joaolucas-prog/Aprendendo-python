@@ -1,2 +1,2 @@
-# Aprendendo-python
-Aprendendo python
+# Aprendendo-python Alura   
+Aprendendo python com a formação alura
