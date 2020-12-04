@@ -13,7 +13,7 @@ class TestLeilao(TestCase):
         self.lance_gui = Lance(self.gui, 100.0)
         self.leilao = Leilao("Celular")
 
-    # o padrão para o python testar é que o metodo começe com o nome teste_nome_do_metodo
+    # o padrão para o python testar é que o metodo começe com o nome test_nome_do_metodo
     def test_deve_verificar_o_maior_e_o_menor_lance(self):
         yuri = Usuario('Yuri',200)
         lance_yuri = Lance(yuri,140)
